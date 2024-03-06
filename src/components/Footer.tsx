@@ -78,9 +78,9 @@ const Footer = () => {
         {/* 4th */}
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>Jhansi, India</p>
-          <p>Jhansi 284128</p>
-          <p>Email: ayush87269@gmail.com</p>
+          <p>India</p>
+          <p>India</p>
+          <p>Email: test@gmail.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
         </div>
