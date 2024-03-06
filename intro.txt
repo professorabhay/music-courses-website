@@ -1,0 +1,10 @@
+1. npx create-next-app@latest
+2. Aceternity UI- Navbar menu (navbar import)
+3. Aceternity UI- spotlight (Hero section),   moving-border(button)
+4.  Aceternity UI- Backgroung gradient ( featured courses)
+5. Aceternity UI- Sticky Scroll Reveal ( why choose us)
+6.  Aceternity UI- Infinite Moving Cards, Grid and Dot Backgrounds ( MovingCards )
+7.  Aceternity UI- Hover Effect ( UpcomingWebinars )
+8.  Aceternity UI- Animated Tooltip, Wavy Background (  Instructors ) 
+9.   Aceternity UI- 3D Card Effect ( courses/page.tsx )
+10.  Aceternity UI- Background Beams ( contact/page.tsx)
