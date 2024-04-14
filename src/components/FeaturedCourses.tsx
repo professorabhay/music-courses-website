@@ -20,10 +20,10 @@ const FeaturedCourses = () => {
     const featuredCourses = courseData.courses.filter((course: Course) => course.isFeatured)
 
   return (
-    <div className="py-12 bg-gray-900">
+    <div className="py-12 bg-gray-900 lg:mt-[40vh] h-screen">
 
         <div>
-            <div className="text-center">
+            <div className="text-center mt-32">
                 <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED COURSES</h2>
                 <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Learn With the Best</p>
             </div>
@@ -37,7 +37,7 @@ const FeaturedCourses = () => {
                             <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                                 <div  className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
 
-                                    {/* <img src="https://images.unsplash.com/photo-1605020420620-20c943cc4669?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGd1aXRhcnxlbnwwfHwwfHx8MA%3D%3D" height="200" width="280" className="rounded-3xl" /> */}
+                                    <img src="https://images.unsplash.com/photo-1605020420620-20c943cc4669?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGd1aXRhcnxlbnwwfHwwfHx8MA%3D%3D" height="200" width="280" className="rounded-3xl" />
 
                                     <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                                     <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
